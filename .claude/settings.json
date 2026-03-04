@@ -6,7 +6,34 @@
     "superpowers@claude-plugins-official": true,
     "typescript-lsp@claude-plugins-official": true
   },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path' | xargs bunx prettier --write 2>/dev/null || true"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "fp=$(jq -r '.tool_input.file_path'); tf=\"${fp%.ts}\"; tf=\"${tf%.test}.test.ts\"; [ -f \"$tf\" ] && bun test \"$tf\" --bail || true"
+          }
+        ]
+      }
+    ]
+  },
   "permissions": {
-    "allow": ["WebFetch(domain:www.gov.uk)"]
+    "allow": [
+      "Bash(mise format:*)",
+      "Bash(mise test:*)",
+      "WebFetch(domain:www.gov.uk)",
+      "WebSearch"
+    ]
   }
 }
