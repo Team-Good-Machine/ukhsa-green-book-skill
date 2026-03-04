@@ -6,11 +6,21 @@ const BASE = "https://www.gov.uk";
 const COLLECTION =
   "/government/collections/immunisation-against-infectious-disease-the-green-book";
 const PDFS_DIR = join(import.meta.dir, "..", "pdfs");
+const MANIFEST_PATH = join(PDFS_DIR, "manifest.json");
+const NATHNAC_FACTSHEET =
+  "https://travelhealthpro.org.uk/factsheet/109/the-green-book-travel-chapters";
 
 export interface Chapter {
   title: string;
   path: string;
 }
+
+interface ManifestEntry {
+  url: string;
+  modified: string;
+}
+
+type Manifest = Record<string, ManifestEntry>;
 
 export function discoverChapters(html: string): Chapter[] {
   const chapters: Chapter[] = [];
@@ -33,9 +43,40 @@ export function extractPdfUrl(html: string): string | null {
   return match ? match[1]! : null;
 }
 
+export function extractDateModified(html: string): string | null {
+  const match = html.match(/"dateModified":\s*"([^"]+)"/);
+  return match ? match[1]! : null;
+}
+
+export function extractNathnacPdfUrls(html: string): Record<string, string> {
+  const urls: Record<string, string> = {};
+  const re = /href="([^"]+\.pdf)"/gi;
+  let match;
+  while ((match = re.exec(html)) !== null) {
+    const url = match[1]!;
+    const chapterMatch = url.match(/chapter-(\d+[a-z]?)/i);
+    if (chapterMatch) {
+      urls[chapterMatch[1]!.toLowerCase()] = url;
+    }
+  }
+  return urls;
+}
+
+export function extractNathnacUrl(html: string): string | null {
+  const match = html.match(
+    /href="(https:\/\/travelhealthpro\.org\.uk\/[^"]+)"/i,
+  );
+  return match ? match[1]! : null;
+}
+
 export function chapterSlug(chapter: Chapter): string {
   const slug = chapter.path.split("/").pop()!;
   return slug.replace(/-the-green-book/, "").replace(/-chapter-/, "-ch");
+}
+
+function chapterNumber(chapter: Chapter): string | null {
+  const match = chapter.path.match(/chapter-(\d+[a-z]?)$/i);
+  return match ? match[1]!.toLowerCase() : null;
 }
 
 async function fetchPage(url: string): Promise<string> {
@@ -44,64 +85,109 @@ async function fetchPage(url: string): Promise<string> {
   return res.text();
 }
 
-async function fileHash(path: string): Promise<string> {
-  const hasher = new Bun.CryptoHasher("sha256");
-  hasher.update(await readFile(path));
-  return hasher.digest("hex");
+async function loadManifest(): Promise<Manifest> {
+  if (!existsSync(MANIFEST_PATH)) return {};
+  const raw = await readFile(MANIFEST_PATH, "utf-8");
+  return JSON.parse(raw) as Manifest;
 }
 
-async function scrapeAll() {
+async function saveManifest(manifest: Manifest): Promise<void> {
+  const sorted = Object.fromEntries(
+    Object.entries(manifest).sort(([a], [b]) => a.localeCompare(b)),
+  );
+  await writeFile(MANIFEST_PATH, JSON.stringify(sorted, null, 2) + "\n");
+}
+
+async function scrapeAll(force = false) {
   console.log("Fetching collection page...");
   const collectionHtml = await fetchPage(BASE + COLLECTION);
   const chapters = discoverChapters(collectionHtml);
   console.log(`Found ${chapters.length} chapters`);
 
   await mkdir(PDFS_DIR, { recursive: true });
+  const manifest = await loadManifest();
+
+  let nathnacPdfs: Record<string, string> | null = null;
 
   const changed: string[] = [];
   const added: string[] = [];
+  const skipped: string[] = [];
 
   for (const chapter of chapters) {
     const slug = chapterSlug(chapter);
     const pdfPath = join(PDFS_DIR, `${slug}.pdf`);
 
-    const oldHash = existsSync(pdfPath) ? await fileHash(pdfPath) : null;
-
-    console.log(`Fetching: ${chapter.title}`);
+    console.log(`  ${chapter.title}`);
     const pubHtml = await fetchPage(BASE + chapter.path);
-    const pdfUrl = extractPdfUrl(pubHtml);
+
+    const modified = extractDateModified(pubHtml);
+    let pdfUrl = extractPdfUrl(pubHtml);
+
     if (!pdfUrl) {
-      console.warn(`  No PDF found, skipping`);
+      const nathnacLink = extractNathnacUrl(pubHtml);
+      if (nathnacLink) {
+        if (!nathnacPdfs) {
+          console.log("    Fetching NaTHNaC travel chapters index...");
+          const nathnacHtml = await fetchPage(NATHNAC_FACTSHEET);
+          nathnacPdfs = extractNathnacPdfUrls(nathnacHtml);
+        }
+        const chNum = chapterNumber(chapter);
+        if (chNum && nathnacPdfs[chNum]) {
+          pdfUrl = nathnacPdfs[chNum]!;
+          if (!pdfUrl.startsWith("http")) {
+            pdfUrl = `https://travelhealthpro.org.uk${pdfUrl.startsWith("/") ? "" : "/"}${pdfUrl}`;
+          }
+        }
+      }
+    }
+
+    if (!pdfUrl) {
+      console.warn(`    no PDF found, skipping`);
+      continue;
+    }
+
+    const existing = manifest[slug];
+    if (
+      !force &&
+      existing &&
+      existing.modified === modified &&
+      existsSync(pdfPath)
+    ) {
+      skipped.push(slug);
+      console.log(`    unchanged`);
       continue;
     }
 
     const res = await fetch(pdfUrl);
     if (!res.ok) {
-      console.warn(`  ${res.status} downloading PDF, skipping`);
+      console.warn(`    ${res.status} downloading PDF, skipping`);
       continue;
     }
     const buf = Buffer.from(await res.arrayBuffer());
     await writeFile(pdfPath, buf);
 
-    const newHash = await fileHash(pdfPath);
-    if (oldHash === null) {
+    if (!existing) {
       added.push(slug);
-      console.log(`  NEW: ${slug}.pdf`);
-    } else if (oldHash !== newHash) {
-      changed.push(slug);
-      console.log(`  CHANGED: ${slug}.pdf`);
+      console.log(`    NEW`);
     } else {
-      console.log(`  unchanged`);
+      changed.push(slug);
+      console.log(`    CHANGED (was ${existing.modified})`);
     }
+
+    manifest[slug] = { url: pdfUrl, modified: modified ?? "unknown" };
   }
+
+  await saveManifest(manifest);
 
   console.log("\n--- Summary ---");
   console.log(`Total: ${chapters.length} chapters`);
   if (added.length) console.log(`New: ${added.join(", ")}`);
   if (changed.length) console.log(`Changed: ${changed.join(", ")}`);
+  if (skipped.length) console.log(`Skipped: ${skipped.length} unchanged`);
   if (!added.length && !changed.length) console.log("No changes detected");
 }
 
 if (import.meta.main) {
-  await scrapeAll();
+  const force = process.argv.includes("--force");
+  await scrapeAll(force);
 }
