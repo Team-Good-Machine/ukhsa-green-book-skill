@@ -3,7 +3,6 @@
 Agent Skill bundling the complete [UK Green Book on
 Immunisation](https://www.gov.uk/government/collections/immunisation-against-infectious-disease-the-green-book)
 as grounding material for Claude, ChatGPT, and other skill-compatible AI agents.
-The skill ensures answers are grounded in Green Book guidance.
 
 ## Install
 
