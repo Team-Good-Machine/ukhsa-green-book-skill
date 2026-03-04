@@ -8,15 +8,15 @@ Use this as the primary reference when answering questions about UK immunisation
 
 | Ch  | Title                                                          | Updated       | File                                    |
 | --- | -------------------------------------------------------------- | ------------- | --------------------------------------- |
-| 1   | Immunity and how vaccines work                                 | January 2021  | [ch1.md](chapters/ch1.md)               |
-| 2   | Consent                                                        | October 2025  | [ch2.md](chapters/ch2.md)               |
-| 3   | Storage, distribution and disposal of vaccines                 | March 2013    | [ch3.md](chapters/ch3.md)               |
-| 4   | Immunisation procedures                                        | March 2013    | [ch4.md](chapters/ch4.md)               |
-| 5   | Immunisation by nurses and other health professionals          | March 2013    | [ch5.md](chapters/ch5.md)               |
-| 6   | Contraindications and special considerations                   | October 2017  | [ch6.md](chapters/ch6.md)               |
-| 7   | Immunisation of individuals with underlying medical conditions | January 2020  | [ch7.md](chapters/ch7.md)               |
-| 8   | Vaccine safety and adverse events following immunisation       | May 2025      | [ch8.md](chapters/ch8.md)               |
-| 9   | Surveillance and monitoring for vaccine safety                 | March 2013    | [ch9.md](chapters/ch9.md)               |
+| 1   | Immunity and how vaccines work                                 | January 2021  | [ch01.md](chapters/ch01.md)             |
+| 2   | Consent                                                        | October 2025  | [ch02.md](chapters/ch02.md)             |
+| 3   | Storage, distribution and disposal of vaccines                 | March 2013    | [ch03.md](chapters/ch03.md)             |
+| 4   | Immunisation procedures                                        | March 2013    | [ch04.md](chapters/ch04.md)             |
+| 5   | Immunisation by nurses and other health professionals          | March 2013    | [ch05.md](chapters/ch05.md)             |
+| 6   | Contraindications and special considerations                   | October 2017  | [ch06.md](chapters/ch06.md)             |
+| 7   | Immunisation of individuals with underlying medical conditions | January 2020  | [ch07.md](chapters/ch07.md)             |
+| 8   | Vaccine safety and adverse events following immunisation       | May 2025      | [ch08.md](chapters/ch08.md)             |
+| 9   | Surveillance and monitoring for vaccine safety                 | March 2013    | [ch09.md](chapters/ch09.md)             |
 | 10  | Vaccine Damage Payment Scheme                                  | December 2018 | [ch10.md](chapters/ch10.md)             |
 | 11  | UK immunisation schedule                                       | June 2025     | [ch11.md](chapters/ch11.md)             |
 | 12  | Immunisation of healthcare and laboratory staff                | March 2013    | [ch12.md](chapters/ch12.md)             |
