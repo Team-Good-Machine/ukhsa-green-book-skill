@@ -6,7 +6,7 @@ const BASE = "https://www.gov.uk";
 const COLLECTION =
   "/government/collections/immunisation-against-infectious-disease-the-green-book";
 const PDFS_DIR = join(import.meta.dir, "..", "pdfs");
-const MANIFEST_PATH = join(PDFS_DIR, "manifest.json");
+const MANIFEST_PATH = join(import.meta.dir, "manifest.json");
 const NATHNAC_FACTSHEET =
   "https://travelhealthpro.org.uk/factsheet/109/the-green-book-travel-chapters";
 
