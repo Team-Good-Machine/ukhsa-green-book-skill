@@ -5,6 +5,9 @@ bun = "latest"
 [settings]
 npm.package_manager = "bun"
 
+[env]
+CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS = "1"
+
 [tasks.bundle]
 description = "Install dependencies"
 run = "bun install"
