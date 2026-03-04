@@ -74,6 +74,10 @@ must be faithful to the source PDF:
   definitions
 - Diagrams/flowcharts: extract with `pdfimages -png` to `figures/`, link as `![caption](figures/chNN-fig.png)`
 - Simple flowcharts can be represented as text descriptions instead
+- Medical illustration PDFs may trigger content filters in subagents; avoid
+  re-reading in this case
+- After conversion, spawn a reviewer agent to compare markdown against source
+  PDF
 
 ## Branching
 
