@@ -1,0 +1,37 @@
+[tools]
+bun = "latest"
+"npm:typescript-language-server" = "latest"
+
+[settings]
+npm.package_manager = "bun"
+
+[tasks.bundle]
+description = "Install dependencies"
+run = "bun install"
+
+[tasks.scrape]
+description = "Scrape Green Book chapters from gov.uk"
+depends = ["bundle"]
+run = "bun run src/scrape.ts"
+
+[tasks.package]
+description = "Package skill into distributable zip"
+depends = ["bundle"]
+run = "bun run src/package.ts"
+
+[tasks.release]
+description = "Scrape, package, and update VERSION"
+run = "mise scrape && mise package"
+
+[tasks.typecheck]
+description = "Run TypeScript type checker"
+run = "bun run typecheck"
+
+[tasks.test]
+description = "Run tests"
+raw = true
+run = "bun test"
+
+[tasks.ci]
+description = "Run all checks"
+run = "mise typecheck ::: test"

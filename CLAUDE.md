@@ -3,6 +3,15 @@
 Agent Skill bundling the complete UK Green Book on immunisation as grounding
 material for Claude. Bun + mise tooling.
 
+## Quick Start
+
+```
+mise trust -y
+mise bundle
+mise scrape
+mise package
+```
+
 ## Project Structure
 
 - `SKILL.md` — skill definition + chapter index
@@ -16,6 +25,7 @@ material for Claude. Bun + mise tooling.
 
 - Use `mise` tasks instead of direct bun commands
 - Bun version managed by mise (see `mise.toml`)
+- `mise ci` — run all checks (typecheck + tests)
 
 ## Commits
 
