@@ -21,7 +21,7 @@ mise bundle
 
 ## Scraping
 
-Fetches all Green Book chapters from gov.uk and converts them to markdown:
+Fetches all Green Book chapter PDFs from gov.uk:
 
 ```
 mise scrape

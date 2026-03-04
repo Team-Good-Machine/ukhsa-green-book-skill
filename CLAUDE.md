@@ -16,9 +16,10 @@ mise package
 
 - `SKILL.md` — skill definition + chapter index
 - `chapters/` — one markdown file per Green Book chapter (with YAML frontmatter)
-- `src/scrape.ts` — scrapes gov.uk, converts chapters to markdown
+- `src/scrape.ts` — scrapes Green Book chapter PDFs from gov.uk
 - `src/package.ts` — assembles zip for distribution
 - `src/scrape.test.ts` — tests for the scraper
+- `figures/` — extracted images from PDFs (via `pdfimages`)
 - `mise.toml` — task definitions (use `mise` tasks, not direct bun commands)
 - `.github/workflows/` — auto-update detection + release publishing
 
@@ -71,7 +72,8 @@ must be faithful to the source PDF:
 - Zero-pad chapter filenames: `ch01.md` not `ch1.md`
 - Preserve footnote markers verbatim (¥, \*, † etc.) in both references and
   definitions
-- Diagrams/flowcharts: represent as text descriptions, not images
+- Diagrams/flowcharts: extract with `pdfimages -png` to `figures/`, link as `![caption](figures/chNN-fig.png)`
+- Simple flowcharts can be represented as text descriptions instead
 
 ## Branching
 
