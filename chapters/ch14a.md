@@ -219,7 +219,7 @@ Local reactions at the injection site are fairly common after Pfizer BioNTech CO
 
 During post marketing surveillance, a number of cases of myocarditis and pericarditis have been reported after Pfizer BioNTech vaccine. The reported rate appears to be highest in those under 25 years of age and in males, and after the second dose. Onset is within a few days of vaccination and most cases are mild and have recovered without any sequalae. The MHRA has advised the benefits of vaccination still outweigh any risk in most individuals.
 
-Since the widespread use of the vaccine, a number of other conditions have been reported after vaccination and have been added to the Summary of Product Characteristics (SmPC). This includes reports of heavy menstrual bleeding (in most cases temporary and non-serious) and extensive swelling of the vaccinated limb. Uncommonly, benign and self-limiting cases of Erythema Multiforme have been reported associated after vaccination. (https://www.gov.uk/government/publications/regulatory-approval-of-covid-19-vaccine-moderna). A very small number of cases of Guillain-Barre Syndrome (GBS) have been reported after Pfizer- BioNTech vaccination but these reports have not reached the number expected to occur by chance in the immunised population.
+Since the widespread use of the vaccine, a number of other conditions have been reported after vaccination and have been added to the Summary of Product Characteristics (SmPC). This includes reports of heavy menstrual bleeding (in most cases temporary and non-serious) and extensive swelling of the vaccinated limb. Uncommonly, benign and self-limiting cases of Erythema Multiforme have been reported associated after vaccination. (https://www.gov.uk/government/publications/regulatory-approval-of-covid-19-vaccine-moderna). A very small number of cases of Guillain-Barré Syndrome (GBS) have been reported after Pfizer- BioNTech vaccination but these reports have not reached the number expected to occur by chance in the immunised population.
 
 Safety data reported from other countries after routine use of the paediatric dose of Pfizer BioNTech vaccine confirms the finding of lower rates of all reactions when compared to a full dose in older children and young people.
 
@@ -231,7 +231,7 @@ There were no cases of severe COVID-19 disease in the vaccine group, and thus no
 
 During post-marketing surveillance, a number of cases of myocarditis and pericarditis have been reported after Moderna vaccine. The reported rate appears to be highest in those under 25 years of age and in males, and after the second dose. Onset is within a few days of vaccination and most cases are mild and have recovered without any sequalae. The MHRA has advised the benefits of vaccination still outweigh any risk in most individuals.
 
-Since the widespread use of the vaccine, a number of other conditions have been reported after vaccination and have been recently added to the Summary of Product Characteristics (SmPC) this includes heavy menstrual bleeding (in most cases temporary and non-serious), capillary leak syndrome, extensive swelling of the vaccinated limb and urticaria. Uncommonly, benign and self-limiting cases of Erythema Multiforme have been reported associated after vaccination.(https://www.gov.uk/government/publications/regulatory-approval-of-covid-19-vaccine-moderna). A very small number of cases of Guillain-Barre Syndrome (GBS) have been reported after Moderna vaccination but these reports have not reached the number expected to occur by chance in the immunised population.
+Since the widespread use of the vaccine, a number of other conditions have been reported after vaccination and have been recently added to the Summary of Product Characteristics (SmPC) this includes heavy menstrual bleeding (in most cases temporary and non-serious), capillary leak syndrome, extensive swelling of the vaccinated limb and urticaria. Uncommonly, benign and self-limiting cases of Erythema Multiforme have been reported associated after vaccination.(https://www.gov.uk/government/publications/regulatory-approval-of-covid-19-vaccine-moderna). A very small number of cases of Guillain-Barré Syndrome (GBS) have been reported after Moderna vaccination but these reports have not reached the number expected to occur by chance in the immunised population.
 
 ### AstraZeneca COVID-19 vaccine (Vaxzevria®)
 
@@ -954,7 +954,7 @@ Cases of myocarditis and pericarditis have been reported rarely after COVID-19 v
 
 Although not an mRNA vaccine, myocarditis and pericarditis have also been reported after Novavax COVID-19 vaccine. https://www.tga.gov.au/news/covid-19-vaccine-safety-reports/covid-19-vaccine-safety-report-29-06-2023#myocarditis-and-pericarditis-after-covid19-vaccination
 
-#### Guillain-Barre syndrome
+#### Guillain-Barré syndrome
 
 Very rare reports have been received of GBS following COVID-19 vaccination, so healthcare professionals should be alert to the signs and symptoms of GBS to ensure correct diagnosis and to rule out other causes, in order to initiate adequate supportive care and treatment.
 
@@ -1032,7 +1032,7 @@ The full specification for those diagnoses, and associated clinical codes, eligi
 - Andrews N, Stowe J, Kirsebom F _et al_. Effectiveness of COVID-19 booster vaccines against COVID-19-related symptoms, hospitalization and death in England. Nat Med. 2022 Apr;28(4):831-837. doi: 10.1038/s41591-022-01699-1. Epub 2022 Jan 14.
 - Baden LR, El Sahly HM, Essink B _et al_. Efficacy and safety of the mRNA-1273 SARS-CoV-2 vaccine. NEJM 2020. doi: 10.1056/NEJMoa2035389.
 - Bar-On YM, Goldberg Y, Mandel M _et al_. Protection of BNT162b2 Vaccine Booster against Covid-19 in Israel. N Engl J Med 2021; 385:1393-1400. DOI: 10.1056/NEJMoa2114255
-- Baxter R, Lewis N, Bakshi N, Vellozzi C, Klein NP; CISA Network. Recurrent Guillain-Barre syndrome following vaccination. Clin Infect Dis. 2012 Mar;54(6):800-4. doi: 10.1093/cid/cir960.
+- Baxter R, Lewis N, Bakshi N, Vellozzi C, Klein NP; CISA Network. Recurrent Guillain-Barré syndrome following vaccination. Clin Infect Dis. 2012 Mar;54(6):800-4. doi: 10.1093/cid/cir960.
 - Bertran M, Amin-Chowdhury Z, Davies HG _et al_. COVID-19 deaths in children and young people in England, March 2020 to December 2021: An active prospective national surveillance study. PLoS Med 2022 Nov 8;19(11):e1004118. doi: 10.1371/journal.pmed.1004118. eCollection 2022 Nov.
 - Bielicki JA, Duval X, Gobat N, _et al_. Monitoring approaches for health-care workers during the COVID-19 pandemic. Lancet Infect Dis. 2020 Oct;20(10):e261-e267. doi: 10.1016/S1473-3099(20)30458-8.
 - Buchan SA, Seo CY, Johnson C, _et al_. Epidemiology of Myocarditis and Pericarditis Following mRNA Vaccination by Vaccine Product, Schedule, and Interdose Interval Among Adolescents and Adults in Ontario, Canada. JAMA Netw Open. 2022 Jun 1;5(6):e2218505. doi: 10.1001/jamanetworkopen.2022.18505. PMID: 35749115; PMCID: PMC9233237.

@@ -549,7 +549,7 @@ Killikelly AM, Kanekiyo MGraham BS (2016) Pre-fusion F is absent on the surface 
 
 Kim HW, Canchola JG, Brandt CD, _et al_. (1969) Respiratory syncytial virus disease in infants despite prior administration of antigenic inactivated vaccine. Am J Epidemiol 89(4): 422-34. doi: 10.1093/oxfordjournals.aje.a120955.
 
-Kroger A, Bahta L, Long S, Sanchez P (2023).: General Best Practice Guidelines for Immunization: Special Situations. _Best Practices Guidance of the Advisory Committee on Immunization Practices (ACIP)_. https://www.cdc.gov/vaccines/hcp/acip-recs/general-recs/special-situations.html. Last Reviewed: June 20, 2023
+Kroger A, Bahta L, Long S, Sánchez P (2023).: General Best Practice Guidelines for Immunization: Special Situations. _Best Practices Guidance of the Advisory Committee on Immunization Practices (ACIP)_. https://www.cdc.gov/vaccines/hcp/acip-recs/general-recs/special-situations.html. Last Reviewed: June 20, 2023
 
 Lassen MCH, Johansen ND, Christensen SH, _et al_. (2025a) Bivalent RSV Prefusion F Protein-Based Vaccine for Preventing Cardiovascular Hospitalizations in Older Adults: A Prespecified Analysis of the DAN-RSV Trial. _JAMA_. doi: 10.1001/jama.2025.15405.
 
