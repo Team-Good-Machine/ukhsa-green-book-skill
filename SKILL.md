@@ -1,3 +1,8 @@
+---
+name: UK Green Book on Immunisation
+description: Complete UK immunisation policy reference — vaccines, schedules, contraindications, and clinical guidance from UKHSA
+---
+
 # UK Green Book on Immunisation
 
 The Green Book contains the latest information on vaccines and vaccination procedures for all vaccine-preventable infectious diseases in the UK. It is published by the UK Health Security Agency (UKHSA).
