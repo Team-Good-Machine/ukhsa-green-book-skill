@@ -102,6 +102,28 @@ feat: Add chapter NN <title>
 Add the chapter to the index table with its description, approximate
 token count, and file link.
 
+## Releasing
+
+Releases are automated via GitHub Actions using calendar versioning
+(dateVer).
+
+When content changes (`chapters/`, `figures/`, or `SKILL.md`) are pushed
+to `main`, the [release workflow](.github/workflows/release.yml):
+
+1. Runs `mise package` to build a `green-book-skill-YYYY.MM.DD.zip`
+2. Creates a GitHub release tagged `vYYYY.MM.DD` with auto-generated
+   notes
+3. Uploads the zip as a release asset
+
+Same-day re-releases get a `.N` suffix (e.g. `v2026.03.05.1`).
+
+### Update detection
+
+A [weekly cron job](.github/workflows/check-updates.yml) runs every
+Monday and scrapes gov.uk for updated chapter PDFs. If any PDFs changed,
+it opens a PR with the new files so a human can re-convert the affected
+chapters.
+
 ## Testing
 
 ```
