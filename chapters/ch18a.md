@@ -19,7 +19,7 @@ HPV is recognised as a necessary cause of cervical cancer and persistent infecti
 
 1 Including types 31, 33, 35, 39, 45, 51, 52, 56, 58, 59 and 68
 
-### Human papillomavirus (HPV)
+## Human papillomavirus (HPV)
 
 The majority of HPV infections are transient and cause no clinical problems. Around 70% of new infections will clear within one year and approximately 90% will clear within two years (Ho _et al._, 1998; Franco _et al._, 1999; Winer _et al._, 2011). Persistent infection by a high-risk HPV type is the most important causal factor for the development of cervical pre-cancerous and cancerous lesions. Persistence and disease is more common for infections by HPV types 16 and 18 than for other high-risk types. The time span between infection by HPV and the development of pre-cancerous lesions varies from one to ten years, and can be longer for the development of invasive cancer (Moscicki _et al._, 2006).
 
@@ -146,7 +146,7 @@ Gardasil®, Gardasil®9 and Cervarix®
 
 For those aged 25 years and above, JCVI recommends a two-dose schedule of 0, 6-24 months for all HPV vaccines. Any gap between doses of between 6 and 24 months is clinically acceptable. If the course is interrupted, it should be resumed but not repeated, even if more than 24 months have elapsed since the first dose.
 
-Whenever possible, immunisations for all individuals should follow the recommended 0, 6-24 months schedule, but there is some clinical data that suggests the interval between the two doses can be reduced to 5 months for Cervarix®. For Gardasil®9 the minimum interval between the two doses should be 6 months. For Gardasil® the minimum interval between the two doses can be 5 months.
+Whenever possible, immunisations for all individuals should follow the recommended 0, 6-24 months schedule, but there is some clinical data that suggests the interval between the two doses can be reduced to 5 months for Cervarix®. For Gardasil®9 the minimum interval between the two doses should be 6 months. For Gardasil®9 the minimum interval between the two doses can be 5 months.
 
 1 Gardasil®9 is the only HPV vaccine supplied for the national HPV programme (for both adolescents and GBMSM). (see below for further details).
 
@@ -332,7 +332,7 @@ In Northern Ireland, supplies should be obtained from local childhood vaccine ho
 - Harper DM, Franco EL, Wheeler CM _et al._ (2006) Sustained efficacy up to 4.5 years of a bivalent L1 virus-like particle vaccine against human papillomavirus types 16 and 18: follow-up from a randomised control trial. _Lancet_ **367**(9518): 1247-55.
 - Hawkins MG, Winder DM, Ball SL, Vaughan K, Sonnex C, Stanley MA, _et al._ Detection of specific HPV subtypes responsible for the pathogenesis of condylomata acuminata. _Virology journal_. 2013;10:137
 - Herweijer E, Sundstrom K, Ploner A _et al._ Quadrivalent HPV vaccine effectiveness against high-grade cervical lesions by age at vaccination: A population-based study. Int J Cancer 2016;138:2867-74. doi:10.1002/ijc.30035
-- Ho GY, Bierman R, Beardsley L _et al._ (1998) Natural history of cervicovaginal papillomavirus infection in young women. _N Engl Med_ **338**(7): 423-8.
+- Ho GY, Bierman R, Beardsley L _et al._ (1998) Natural history of cervicovaginal papillomavirus infection in young women. _N Engl J Med_ **338**(7): 423-8.
 - Howell-Jones R, Bailey A, Beddows S _et al._ (2010) Multi-site study of HPV type-specific prevalence in women with cervical cancer, intraepithelial neoplasia and normal cytology, in England. _Br J Cancer_, **103**(2): 209-16. Erratum in: _Br J Cancer_ (2010), **103**(6): 928.
 - HPA (2007) _Testing times -- HIV and other sexually transmitted Infections in the United Kingdom: 2007_. Accessed: Feb. 2012. HPA (2012) STI annual data tables. Accessed: Feb. 2012.
 - Jit M, Vyse A, Borrow R _et al._ (2007) Prevalence of human papillomavirus antibodies in young female subjects in England. _Br J Cancer_ **97**(7): 989-91.
