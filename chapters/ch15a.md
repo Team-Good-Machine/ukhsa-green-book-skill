@@ -144,6 +144,8 @@ Table 1: Consideration of eligibility for vaccination
 
 **Definition of compatible travel**: travel to an area at any time of year where there are year-round endemic infections or travel during the dengue season to countries or regions where there is seasonal detection of dengue. Refer to https://travelhealthpro.org.uk/countries
 
+† Other potential causes of positive dengue IgG include vaccination against other flaviviruses (yellow fever, Japanese encephalitis and tick-borne encephalitis), and exposure to other flaviviruses such as West Nile virus and Zika virus.
+
 \* Strength of recommendation may be influenced by likelihood of prior exposure to dengue virus, and therefore risk of prior asymptomatic illness. For example, the probability that a positive dengue IgG represents prior dengue infection will be higher for patients with a history of prolonged residence in a highly dengue endemic setting than for those with shorter durations of exposure.
 
 ## Contraindications
