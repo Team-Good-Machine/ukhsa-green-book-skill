@@ -24,7 +24,7 @@ run = "bun run src/package.ts"
 
 [tasks.release]
 description = "Scrape, generate, package"
-run = "mise scrape && mise generate && mise package"
+run = "mise scrape && mise package"
 
 [tasks.typecheck]
 description = "Run TypeScript type checker"
