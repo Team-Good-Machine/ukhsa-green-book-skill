@@ -1,0 +1,37 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "chapters/**"
+      - "figures/**"
+      - "SKILL.md"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: jdx/mise-action@v3
+        with: { cache: true, install: true }
+
+      - run: mise package
+
+      - name: Read version
+        id: version
+        run: echo "version=$(cat VERSION)" >> "$GITHUB_OUTPUT"
+
+      - name: Create release
+        run: |
+          gh release create "${{ steps.version.outputs.version }}" \
+            green-book-skill-*.zip \
+            --title "Green Book Skill ${{ steps.version.outputs.version }}" \
+            --notes "Content snapshot ${{ steps.version.outputs.version }}."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
