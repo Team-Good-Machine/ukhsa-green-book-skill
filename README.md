@@ -111,7 +111,7 @@ Releases are automated via GitHub Actions using calendar versioning
 When content changes (`chapters/`, `figures/`, or `SKILL.md`) are pushed
 to `main`, the [release workflow](.github/workflows/release.yml):
 
-1. Runs `mise package` to build a `green-book-skill-YYYY.MM.DD.zip`
+1. Runs `mise package` to build `green-book.zip`
 2. Creates a GitHub release tagged `vYYYY.MM.DD` with auto-generated
    notes
 3. Uploads the zip as a release asset

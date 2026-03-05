@@ -4,14 +4,6 @@ import { join } from "path";
 
 const ROOT = join(import.meta.dir, "..");
 
-export function dateVer(): string {
-  const d = new Date();
-  const y = d.getFullYear();
-  const m = String(d.getMonth() + 1).padStart(2, "0");
-  const day = String(d.getDate()).padStart(2, "0");
-  return `${y}.${m}.${day}`;
-}
-
 export async function buildZip(outPath: string): Promise<void> {
   const files: string[] = ["SKILL.md"];
 
@@ -41,7 +33,6 @@ export async function buildZip(outPath: string): Promise<void> {
 }
 
 if (import.meta.main) {
-  const version = dateVer();
-  const outPath = join(ROOT, `green-book-skill-${version}.zip`);
+  const outPath = join(ROOT, "green-book.zip");
   await buildZip(outPath);
 }
