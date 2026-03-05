@@ -37,40 +37,40 @@ Rotavirus infection may also be acquired in hospital. A third of rotavirus infec
 
 ## The rotavirus vaccination
 
-There are two rotavirus vaccines authorised for use by the European Medicines Agency, Rotarix (manufactured by GSK) and RotaTeq (manufactured by Sanofi Pasteur MSD). Both are highly effective at preventing rotavirus infection in infants. However, the vaccines are not known to be interchangeable and a course of vaccine started with one product should be completed with the same vaccine to achieve full protection. Neither vaccine contains thiomersal nor any adjuvant.
+There are two rotavirus vaccines authorised for use by the European Medicines Agency, Rotarix® (manufactured by GSK) and RotaTeq® (manufactured by Sanofi Pasteur MSD). Both are highly effective at preventing rotavirus infection in infants. However, the vaccines are not known to be interchangeable and a course of vaccine started with one product should be completed with the same vaccine to achieve full protection. Neither vaccine contains thiomersal nor any adjuvant.
 
-Rotarix is the vaccine offered as part of the UK national childhood immunisation programme. It is a live attenuated vaccine derived from a virus initially isolated from a 15-month-old child and then attenuated by serial cell culture passage (De Vos _et al._, 2004).
+Rotarix® is the vaccine offered as part of the UK national childhood immunisation programme. It is a live attenuated vaccine derived from a virus initially isolated from a 15-month-old child and then attenuated by serial cell culture passage (De Vos _et al._, 2004).
 
-In clinical trials Rotarix has been shown to protect against gastroenteritis due to rotavirus serotypes G1P[8], G2P[4], G3P[8], G4P[8], and G9P[8]; some efficacy against uncommon rotavirus genotypes G8P[4] and G12P[6] has also been demonstrated. The vaccine is over 85% effective at protecting against severe rotavirus gastroenteritis in the first two years of life (Salinas _et al._, 2005; Ruiz-Palacios _et al._, 2006; Vesikari _et al._, 2006; Vesikari _et al._, 2007; Soares-Weiser K _et al_., 2012). The effectiveness of the vaccine in protecting against any rotavirus infection varies between the serotypes listed.
+In clinical trials Rotarix® has been shown to protect against gastroenteritis due to rotavirus serotypes G1P[8], G2P[4], G3P[8], G4P[8], and G9P[8]; some efficacy against uncommon rotavirus genotypes G8P[4] and G12P[6] has also been demonstrated. The vaccine is over 85% effective at protecting against severe rotavirus gastroenteritis in the first two years of life (Salinas _et al._, 2005; Ruiz-Palacios _et al._, 2006; Vesikari _et al._, 2006; Vesikari _et al._, 2007; Soares-Weiser K _et al_., 2012). The effectiveness of the vaccine in protecting against any rotavirus infection varies between the serotypes listed.
 
 ### Storage (see Chapter 3)
 
 Vaccines should be stored in the original packaging at +2°C to +8°C and protected from light. All vaccines are sensitive to some extent to heat or cold. Heat speeds up the decline in potency of most vaccines, thus reducing their shelf life. Effectiveness will be reduced for vaccines unless they have been stored at the correct temperature.
 
-Freezing may cause increased reactogenicity and loss of potency for Rotarix.
+Freezing may cause increased reactogenicity and loss of potency for Rotarix®.
 
 ### Presentation
 
-Rotarix vaccine is supplied as an oral suspension of clear colourless liquid in an oral applicator containing the suspension solution (1.5 ml) with a plunger, stopper and a protective tip cap.
+Rotarix® vaccine is supplied as an oral suspension of clear colourless liquid in an oral applicator containing the suspension solution (1.5 ml) with a plunger, stopper and a protective tip cap.
 
 ## Dosage and schedule
 
-### Schedule for Rotarix
+### Schedule for Rotarix®
 
-- First dose of 1.5 ml of Rotarix vaccine at two months (approximately eight weeks) of age.
+- First dose of 1.5 ml of Rotarix® vaccine at two months (approximately eight weeks) of age.
 - Second dose of 1.5 ml at least four weeks after the first dose.
 
-It is preferable that the full course of two doses of Rotarix be completed before 16 weeks of age, allowing at least four weeks between first and second dose. This is to provide early protection and avoid temporal association between vaccination and intussusception.
+It is preferable that the full course of two doses of Rotarix® be completed before 16 weeks of age, allowing at least four weeks between first and second dose. This is to provide early protection and avoid temporal association between vaccination and intussusception.
 
-In line with recommendations from WHO, infants should only receive the first dose of Rotarix if they are younger than 15 weeks of age. Infants who receive the first dose before week 15 should receive the second dose of vaccine by 24 weeks of age. If the course is interrupted, it should be resumed but not repeated, provided that the second dose can be given before the 24 week cut-off.
+In line with recommendations from WHO, infants should only receive the first dose of Rotarix® if they are younger than 15 weeks of age. Infants who receive the first dose before week 15 should receive the second dose of vaccine by 24 weeks of age. If the course is interrupted, it should be resumed but not repeated, provided that the second dose can be given before the 24 week cut-off.
 
 Children who inadvertently receive the first dose of rotavirus vaccine at age 15 weeks or older should still receive their second dose at least four weeks later - providing that they will still be under 24 weeks of age at the time. The reason for the 15 week age limit is to minimise a potential risk of intussusception (see **Adverse reactions** below)
 
-No specific clinical action needs to be taken if the first dose of vaccine is inadvertently given after 15 weeks and zero days of age or if the second dose is given after 24 weeks of age. For both situations, immunisers should be reminded of the age restrictions for Rotarix, even if infants are unable to start or complete the two dose schedule as a consequence of these restrictions.
+No specific clinical action needs to be taken if the first dose of vaccine is inadvertently given after 15 weeks and zero days of age or if the second dose is given after 24 weeks of age. For both situations, immunisers should be reminded of the age restrictions for Rotarix®, even if infants are unable to start or complete the two dose schedule as a consequence of these restrictions.
 
 ### Administration
 
-Rotarix vaccine is given orally.
+Rotarix® vaccine is given orally.
 
 **Rotavirus vaccines must not be injected.**
 
@@ -78,7 +78,11 @@ To administer the vaccine, carefully remove the protective tip-cap from the oral
 
 ![Instructions for administration of rotavirus vaccine](../figures/ch27b-fig3.png)
 
-The Summary of Product Characteristics for Rotarix provides further guidance on administration. (http://www.medicines.org.uk/emc/medicine/17840/SPC/rotarix/)
+1. Remove the protective tip cap from the oral applicator. 2. This vaccine is for oral administration only. The child should be seated in a reclining position. Administer orally (i.e. into the child's mouth, towards the inner cheek) the entire content of the oral applicator. 3. Do not inject.
+
+Source: by permission of GSK from the SPC.
+
+The Summary of Product Characteristics for Rotarix® provides further guidance on administration. (http://www.medicines.org.uk/emc/medicine/17840/SPC/rotarix/)
 
 Rotavirus vaccine can be given at the same time as the other vaccines administered as part of the routine childhood immunisation programme, including BCG, and so should ideally be given at the scheduled two month and three month vaccination visits (see above). However, rotavirus vaccine can be given at any time before or after the routine infant immunisations and at any time before or after BCG vaccine. The recommendation for administering live vaccines either at the same time or after an interval of four weeks only applies to injectable live viral vaccines and, therefore, not to BCG or to the oral rotavirus vaccines.
 
@@ -90,27 +94,27 @@ Equipment used for vaccination, including used vials, ampoules, or partially dis
 
 ## Recommendations for use of the vaccine
 
-The objective of the rotavirus immunisation programme is to provide two doses of Rotarix vaccine to infants from six weeks of age and before 24 weeks of age in order to prevent severe gastroenteritis due to rotavirus.
+The objective of the rotavirus immunisation programme is to provide two doses of Rotarix® vaccine to infants from six weeks of age and before 24 weeks of age in order to prevent severe gastroenteritis due to rotavirus.
 
 ### Infants aged under six weeks
 
-Rotarix should not be given to infants under 6 weeks of age.
+Rotarix® should not be given to infants under 6 weeks of age.
 
 ### Infants aged 6 weeks to under 15 weeks
 
-The minimum age for the first dose of Rotarix is 6 weeks 0 days, the maximum age for the first dose is 14 weeks and 6 days.
+The minimum age for the first dose of Rotarix® is 6 weeks 0 days, the maximum age for the first dose is 14 weeks and 6 days.
 
 ### Infants aged 15 weeks to under 24 weeks
 
-Vaccination with Rotarix should not be started for infants aged 15 weeks and 0 days or older. Infants who have received their first dose of vaccine under 15 weeks and 0 days of age should receive their second dose of Rotarix after a minimum interval of 4 weeks and by 23 weeks and 6 days of age.
+Vaccination with Rotarix® should not be started for infants aged 15 weeks and 0 days or older. Infants who have received their first dose of vaccine under 15 weeks and 0 days of age should receive their second dose of Rotarix® after a minimum interval of 4 weeks and by 23 weeks and 6 days of age.
 
 ### Infants aged 24 weeks or older
 
-Rotarix vaccine should not be given to an infant who is 24 weeks and 0 days of age or older.
+Rotarix® vaccine should not be given to an infant who is 24 weeks and 0 days of age or older.
 
 ## Contraindications
 
-Rotarix should not be given to:
+Rotarix® should not be given to:
 
 - infants with a confirmed anaphylactic reaction to a previous dose of rotavirus vaccine,
 - infants with a confirmed anaphylactic reaction to any components of the vaccine,
@@ -124,7 +128,7 @@ Although the vaccine is a live attenuated virus, with the exception of severe co
 
 ## Precautions
 
-Rotarix should not be given to infants under 6 weeks of age. Vaccination with Rotarix should not be started for infants aged 15 weeks and 0 days or older. Infants who have received their first dose of vaccine under 15 weeks and 0 days of age should receive their second dose of Rotarix after a minimum interval of 4 weeks and by 23 weeks and 6 days of age. Rotarix vaccine should not be given to an infant who is 24 weeks and 0 days of age or older.
+Rotarix® should not be given to infants under 6 weeks of age. Vaccination with Rotarix® should not be started for infants aged 15 weeks and 0 days or older. Infants who have received their first dose of vaccine under 15 weeks and 0 days of age should receive their second dose of Rotarix® after a minimum interval of 4 weeks and by 23 weeks and 6 days of age. Rotarix® vaccine should not be given to an infant who is 24 weeks and 0 days of age or older.
 
 Administration of rotavirus vaccine should be postponed in infants suffering from:
 
@@ -137,7 +141,7 @@ The vaccine contains a live attenuated virus, and there is limited evidence of s
 
 ### Premature infants
 
-It is important that premature infants have their immunisations at the appropriate chronological age, according to the schedule. Vaccination of preterm infants using Rotarix is indicated at a chronologic age (without correction for prematurity) of at least six weeks, if the infant is clinically stable. As the benefit of vaccination is high in premature and very premature infants, vaccination should not be withheld or delayed.
+It is important that premature infants have their immunisations at the appropriate chronological age, according to the schedule. Vaccination of preterm infants using Rotarix® is indicated at a chronologic age (without correction for prematurity) of at least six weeks, if the infant is clinically stable. As the benefit of vaccination is high in premature and very premature infants, vaccination should not be withheld or delayed.
 
 ### Hospitalised infants
 
@@ -147,19 +151,19 @@ Administration of rotavirus vaccine to hospitalised infants, including preterm i
 
 Rotavirus vaccine should not be administered to infants known to have severe combined immunodeficency (SCID). There is a lack of safety and efficacy data on the administration of rotavirus vaccine to infants with other immunosuppressive disorders. Given the high risk of exposure to natural rotavirus, however, the benefits of administration is likely to outweigh any theoretical risks and therefore should be actively considered, if necessary in collaboration with the clinician dealing with child's underlying condition.
 
-However, in a clinical study, 100 infants with HIV infection were administered Rotarix lyophilised formulation or placebo. The safety profile was similar between Rotarix and placebo recipients (Steele _et al._, 2011). Therefore, vaccination is advised in HIV infected infants. Additionally, infants with unknown HIV status but born to HIV positive mothers should be offered vaccination.
+However, in a clinical study, 100 infants with HIV infection were administered Rotarix® lyophilised formulation or placebo. The safety profile was similar between Rotarix® and placebo recipients (Steele _et al._, 2011). Therefore, vaccination is advised in HIV infected infants. Additionally, infants with unknown HIV status but born to HIV positive mothers should be offered vaccination.
 
-There is a potential for transmission of live attenuated vaccine in Rotarix from the infant to severely immunocompromised contacts through faecal material for at least 14 days (Anderson, 2008). However, vaccination of the infant will offer protection to household contacts from wild-type rotavirus disease and outweigh any risk from transmission of vaccine virus to any immunocompromised close contacts. Those in close contact with recently vaccinated infants should observe good personal hygiene.
+There is a potential for transmission of live attenuated vaccine in Rotarix® from the infant to severely immunocompromised contacts through faecal material for at least 14 days (Anderson, 2008). However, vaccination of the infant will offer protection to household contacts from wild-type rotavirus disease and outweigh any risk from transmission of vaccine virus to any immunocompromised close contacts. Those in close contact with recently vaccinated infants should observe good personal hygiene.
 
 ## Adverse reactions
 
 Anyone can report a suspected adverse reaction to the Commission on Human Medicines (CHM) using the Yellow Card reporting scheme (https://www.mhra.gov.uk/yellowcard).
 
-The most common adverse reactions observed after administration of Rotarix vaccine administration are diarrhoea and irritability. Other reactions commonly reported are vomiting, abdominal pain, flatulence, skin inflammation, regurgitation of food, fever and loss of appetite. A detailed list of adverse reactions associated with Rotarix is available in the Summary of Product Characteristics for this vaccine, which is available from the European Medicines Agency website.
+The most common adverse reactions observed after administration of Rotarix® vaccine administration are diarrhoea and irritability. Other reactions commonly reported are vomiting, abdominal pain, flatulence, skin inflammation, regurgitation of food, fever and loss of appetite. A detailed list of adverse reactions associated with Rotarix® is available in the Summary of Product Characteristics for this vaccine, which is available from the European Medicines Agency website.
 
-Intussusception is a naturally-occurring condition where the part of the intestine prolapses, or telescopes, into another part causing an obstruction. Intussusception has a background annual incidence of around 120 cases per 100,000 children aged under one year (WHO, 2002). The background risk of intussusception in the UK increases to peak at around 5 months of age (Gay N, Lancet 1999). Research from some countries suggests that Rotarix may be associated with a very small increased risk of intussusception within seven days of vaccination, possibly two cases per 100,000 first doses given, and the Rotarix prescribing information includes this as a possible side effect. The benefits of vaccination in preventing the consequences of rotavirus infection outweigh this small potential risk in young children. Because of the potential risk, and to reduce the likelihood of a temporal association with rotavirus vaccine, the first dose of vaccine should not be given after 15 weeks of age.
+Intussusception is a naturally-occurring condition where the part of the intestine prolapses, or telescopes, into another part causing an obstruction. Intussusception has a background annual incidence of around 120 cases per 100,000 children aged under one year (WHO, 2002). The background risk of intussusception in the UK increases to peak at around 5 months of age (Gay N, Lancet 1999). Research from some countries suggests that Rotarix® may be associated with a very small increased risk of intussusception within seven days of vaccination, possibly two cases per 100,000 first doses given, and the Rotarix® prescribing information includes this as a possible side effect. The benefits of vaccination in preventing the consequences of rotavirus infection outweigh this small potential risk in young children. Because of the potential risk, and to reduce the likelihood of a temporal association with rotavirus vaccine, the first dose of vaccine should not be given after 15 weeks of age.
 
-There is no evidence that Rotarix has a causal association with the development of Kawasaki disease (Soares-Weiser K _et al._, 2012).
+There is no evidence that Rotarix® has a causal association with the development of Kawasaki disease (Soares-Weiser K _et al._, 2012).
 
 ## Reporting anaphylaxis and other allergic reactions
 
@@ -167,9 +171,9 @@ Anaphylaxis is a very rare, recognised side effect of most vaccines and suspecte
 
 ## Supplies (see chapter 3)
 
-- Rotarix -- manufactured by GlaxoSmithKline (Tel. 08081 009997).
+- Rotarix® -- manufactured by GlaxoSmithKline (Tel. 08081 009997).
 
-In England, Rotarix should be ordered online only via the ImmForm website (https://www.gov.uk/government/collections/immform) and it is distributed by Movianto UK (Tel: 01234 248631) as part of the national childhood immunisation programme.
+In England, Rotarix® should be ordered online only via the ImmForm website (https://www.gov.uk/government/collections/immform) and it is distributed by Movianto UK (Tel: 01234 248631) as part of the national childhood immunisation programme.
 
 Centrally purchased vaccines for the national immunisation programme for the NHS can only be ordered via ImmForm. Vaccines for use for the national childhood immunisation programme are provided free of charge. Vaccines for private prescriptions, outbreaks, occupational health use or travel, are NOT provided free of charge and should be ordered from the manufacturers. Further information about ImmForm is available at http://immunisation.dh.gov.uk/immform-helpsheets/ or from the ImmForm helpdesk at helpdesk@immform.org.uk or tel: 0844 376 0040.
 
@@ -177,7 +181,7 @@ In Wales, supplies should be ordered through ImmForm as above. There are differe
 
 In Scotland, supplies should be obtained from local childhood vaccine holding centres. Details of these are available from Scottish Healthcare Supplies (tel: 0131 275 6154).
 
-In Northern Ireland, supplies of Rotarix for the national immunisation programme, are supplied via designated trust pharmacy departments. Details of these trust pharmacy departments are available from the Regional Pharmaceutical Procurement Service (tel 028 94 424346; e-mail rphps.admin@northerntrust.hscni.net)
+In Northern Ireland, supplies of Rotarix® for the national immunisation programme, are supplied via designated trust pharmacy departments. Details of these trust pharmacy departments are available from the Regional Pharmaceutical Procurement Service (tel 028 94 424346; e-mail rphps.admin@northerntrust.hscni.net)
 
 ## References
 
@@ -203,7 +207,9 @@ Djuretic T, Ramsay M, Gay N _et al._ (1999) An estimate of the proportion of dia
 
 Fischer TK, Bresee JS and Glass RI (2004) Rotavirus vaccines and the prevention of hospital-acquired diarrhea in children. _Vaccine_ **22 Suppl 1** S49-54.
 
-Gay N, Ramsay M and Waight P (1999) Rotavirus vaccination and intussusception. The Lancet, 354, [9182]:956.Glass RI, Parashar UD, Bresee JS _et al._ (2006) Rotavirus vaccines: current prospects and future challenges. _Lancet_ **368**(9532): 323-32.
+Gay N, Ramsay M and Waight P (1999) Rotavirus vaccination and intussusception. The Lancet, 354, [9182]:956.
+
+Glass RI, Parashar UD, Bresee JS _et al._ (2006) Rotavirus vaccines: current prospects and future challenges. _Lancet_ **368**(9532): 323-32.
 
 Gleizes O, Desselberger U, Tatochenko V _et al._ (2006) Nosocomial rotavirus infection in European countries: a review of the epidemiology, severity and economic burden of hospital-acquired rotavirus disease. _Pediatr Infect Dis J_ **25**(1 Suppl): S12-21.
 
@@ -233,7 +239,7 @@ Ruiz-Palacios GM, Perez-Schael I, Velazquez FR _et al._ (2006) Safety and effica
 
 Salinas B, Perez Schael I, Linhares AC _et al._ (2005) Evaluation of safety, immunogenicity and efficacy of an attenuated rotavirus vaccine, RIX4414: a randomized, placebo-controlled trial in Latin American infants. _Pediatr Infect Dis J_ **24**(9): 807-16.
 
-Sanofi Pasteur MSD Limited (2008) RotaTeq: Summary of Product Characteristics. http://www.medicines.org.uk/emc/medicine/17840/SPC/rotarix/ Accessed: Jan2013.
+Sanofi Pasteur MSD Limited (2008) RotaTeq®: Summary of Product Characteristics. http://www.medicines.org.uk/emc/medicine/17840/SPC/rotarix/ Accessed: Jan2013.
 
 Shui IM, Baggs J, Patel M _et al._ Risk of intussusception following administration of a pentavalent rotavirus vaccine in US infants. _JAMA_. 2012 Feb 8; **307**(6):598-604.
 

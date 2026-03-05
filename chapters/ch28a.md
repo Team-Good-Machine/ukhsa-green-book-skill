@@ -35,9 +35,9 @@ Data from GP-based studies in England and Wales suggest that over 50,000 cases o
 
 Table 1: Estimated percentage developing PHN by age group in the immunocompetent population in England and Wales in pre-vaccine era (population 2007). Data taken from van Hoek _et al._, 2009.
 
-|                                         | 60-64 years | 65-69 years | 70-74 years | 75-79 years | 80-84 years | 85+ years |
-| --------------------------------------- | ----------- | ----------- | ----------- | ----------- | ----------- | --------- |
-| Proportion developing PHN after 90 days | 9%          | 11%         | 15%         | 20%         | 27%         | 52%       |
+|                                         | 60-64 years | 65-69 years | 70-74 years | 75-79 years | 80-84 years | 85 years |
+| --------------------------------------- | ----------- | ----------- | ----------- | ----------- | ----------- | -------- |
+| Proportion developing PHN after 90 days | 9%          | 11%         | 15%         | 20%         | 27%         | 52%      |
 
 ![Figure 1](../figures/ch28a-fig1.png)
 
