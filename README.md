@@ -1,12 +1,13 @@
 # ukhsa-green-book-skill
 
-Agent Skill bundling the complete [UK Green Book on
+Agent skill bundling the complete [UK Green Book on
 Immunisation](https://www.gov.uk/government/collections/immunisation-against-infectious-disease-the-green-book)
-as grounding material for Claude, ChatGPT, and other skill-compatible AI agents.
+in converted markdown format, to be used as grounding material for Claude,
+ChatGPT, Gemini, and other skill-compatible AI agents.
 
 ## Install
 
-Download the latest `.skill` from the [releases
+Download the latest `.zip` from the [releases
 page](https://github.com/Team-Good-Machine/ukhsa-green-book-skill/releases) and
 give it to Claude.
 
