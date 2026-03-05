@@ -36,7 +36,7 @@ jobs:
           fi
           gh release create "$TAG" \
             green-book-skill-*.zip \
-            --title "Green Book Skill ${TAG#v}" \
+            --title "$TAG" \
             --generate-notes
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
