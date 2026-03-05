@@ -1,8 +1,9 @@
-import { readdir } from "fs/promises";
+import { readdir, symlink, unlink } from "fs/promises";
 import { existsSync } from "fs";
-import { join } from "path";
+import { join, resolve } from "path";
 
 const ROOT = join(import.meta.dir, "..");
+const PREFIX = "green-book";
 
 export async function buildZip(outPath: string): Promise<void> {
   const files: string[] = ["SKILL.md"];
@@ -19,14 +20,21 @@ export async function buildZip(outPath: string): Promise<void> {
     for (const fig of figures) files.push(`figures/${fig}`);
   }
 
-  const result = Bun.spawnSync(["zip", outPath, ...files], {
-    cwd: ROOT,
-  });
+  const link = join(ROOT, PREFIX);
+  try {
+    await symlink(".", link);
+    const prefixed = files.map((f) => `${PREFIX}/${f}`);
+    const result = Bun.spawnSync(["zip", "-y", resolve(outPath), ...prefixed], {
+      cwd: ROOT,
+    });
 
-  if (result.exitCode !== 0) {
-    throw new Error(
-      `zip failed (${result.exitCode}): ${result.stderr.toString()}`,
-    );
+    if (result.exitCode !== 0) {
+      throw new Error(
+        `zip failed (${result.exitCode}): ${result.stderr.toString()}`,
+      );
+    }
+  } finally {
+    await unlink(link).catch(() => {});
   }
 
   console.log(`Packaged ${files.length} files → ${outPath}`);
