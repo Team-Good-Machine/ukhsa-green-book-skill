@@ -23,15 +23,20 @@ jobs:
 
       - run: mise package
 
-      - name: Read version
-        id: version
-        run: echo "version=$(cat VERSION)" >> "$GITHUB_OUTPUT"
-
       - name: Create release
         run: |
-          gh release create "${{ steps.version.outputs.version }}" \
+          VERSION=$(date +%Y.%m.%d)
+          TAG="v${VERSION}"
+          if gh release view "$TAG" &>/dev/null; then
+            PATCH=1
+            while gh release view "${TAG}.${PATCH}" &>/dev/null; do
+              PATCH=$((PATCH + 1))
+            done
+            TAG="${TAG}.${PATCH}"
+          fi
+          gh release create "$TAG" \
             green-book-skill-*.zip \
-            --title "Green Book Skill ${{ steps.version.outputs.version }}" \
-            --notes "Content snapshot ${{ steps.version.outputs.version }}."
+            --title "Green Book Skill ${TAG#v}" \
+            --generate-notes
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
