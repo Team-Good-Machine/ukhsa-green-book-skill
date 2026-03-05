@@ -1,11 +1,10 @@
-import { readdir, writeFile } from "fs/promises";
+import { readdir } from "fs/promises";
 import { existsSync } from "fs";
 import { join } from "path";
 
 const ROOT = join(import.meta.dir, "..");
-const VERSION_PATH = join(ROOT, "VERSION");
 
-function today(): string {
+export function dateVer(): string {
   const d = new Date();
   const y = d.getFullYear();
   const m = String(d.getMonth() + 1).padStart(2, "0");
@@ -42,10 +41,7 @@ export async function buildZip(outPath: string): Promise<void> {
 }
 
 if (import.meta.main) {
-  const version = today();
-  await writeFile(VERSION_PATH, version + "\n");
-  console.log(`VERSION: ${version}`);
-
+  const version = dateVer();
   const outPath = join(ROOT, `green-book-skill-${version}.zip`);
   await buildZip(outPath);
 }
