@@ -47,6 +47,7 @@ add thing`)
 - Blank line, then 1-3 sentence body explaining "why"
 - Hard-wrap every line at 72 characters
 - No bullet points, NEVER add "Co-Authored-By" or other footers
+- Use `git commit -F - <<'EOF'` (not `git commit -m "$()"`) to avoid subshell approval prompts
 - Check `git log -n 5` first to match existing style
 - Never use `--oneline` — commit bodies carry important context
 
@@ -72,12 +73,17 @@ must be faithful to the source PDF:
 - Zero-pad chapter filenames: `ch01.md` not `ch1.md`
 - Preserve footnote markers verbatim (¥, \*, † etc.) in both references and
   definitions
-- Diagrams/flowcharts: extract with `pdfimages -png` to `figures/`, link as `![caption](figures/chNN-fig.png)`
+- Diagrams/flowcharts: extract with `pdfimages -png` to `figures/`, link as `![caption](../figures/chNN-fig.png)`
+- Vector graphs won't extract with `pdfimages`; use `pdftoppm -png -f PAGE -l PAGE -r 200` then crop with `magick`
 - Simple flowcharts can be represented as text descriptions instead
 - Medical illustration PDFs may trigger content filters in subagents; avoid
   re-reading in this case
 - After conversion, spawn a reviewer agent to compare markdown against source
   PDF
+
+## Temp Files
+
+- Use `./tmp/` for temporary files, not `/tmp`
 
 ## Branching
 
