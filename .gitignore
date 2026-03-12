@@ -1,6 +1,6 @@
 .claude/*.local.json
 node_modules
 *.zip
-green-book
+/skills/green-book/green-book
 tmp
 !tmp/.keep

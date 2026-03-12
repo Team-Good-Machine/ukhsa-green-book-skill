@@ -1,8 +1,9 @@
-import { readdir } from "fs/promises";
+import { readdir, symlink, unlink } from "fs/promises";
+import { existsSync } from "fs";
 import { join, relative, resolve } from "path";
 
 const ROOT = join(import.meta.dir, "..");
-const SKILL_DIR = join(ROOT, "skills", "uk-green-book");
+const SKILL_DIR = join(ROOT, "skills", "green-book");
 const PREFIX = "green-book";
 
 async function collectFiles(dir: string, base: string): Promise<string[]> {
@@ -20,13 +21,14 @@ async function collectFiles(dir: string, base: string): Promise<string[]> {
 }
 
 export async function buildZip(outPath: string): Promise<void> {
+  if (existsSync(outPath)) await unlink(outPath);
+
   const files = (await collectFiles(SKILL_DIR, SKILL_DIR)).filter(
     (f) => f.endsWith(".md") || f.endsWith(".png"),
   );
 
   const args = files.map((f) => `${PREFIX}/${f}`);
   const linkPath = join(SKILL_DIR, PREFIX);
-  const { symlink, unlink } = await import("fs/promises");
 
   try {
     await symlink(".", linkPath);

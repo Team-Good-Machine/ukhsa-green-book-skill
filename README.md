@@ -7,18 +7,21 @@ ChatGPT, Gemini, and other skill-compatible AI agents.
 
 ## Install
 
-### Claude Code, Cursor, Copilot, Codex, and other agents
+Download the latest `.zip` from the [releases
+page](https://github.com/Team-Good-Machine/ukhsa-green-book-skill/releases) and
+give it to your agent.
+
+You can also use `npx skills`:
 
 ```sh
 npx skills add Team-Good-Machine/ukhsa-green-book-skill
 ```
 
-### claude.ai
+Or:
 
-Download the latest `.zip` from the [releases
-page](https://github.com/Team-Good-Machine/ukhsa-green-book-skill/releases)
-and add it to your project knowledge, or paste the SKILL.md contents into
-your conversation.
+```sh
+npx add-skill Team-Good-Machine/ukhsa-green-book-skill
+```
 
 ## Development
 
@@ -54,16 +57,16 @@ markdown is a separate human-in-the-loop process.
 ### 1. Extract figures
 
 ```sh
-pdfimages -png pdfs/<slug>.pdf skills/uk-green-book/assets/figures/chNN-raw
+pdfimages -png pdfs/<slug>.pdf skills/green-book/assets/figures/chNN-raw
 ```
 
 Rename the raw extracts to match the figure numbering in the PDF (e.g.
-`skills/uk-green-book/assets/figures/ch21-fig1.png`). For vector-only
+`skills/green-book/assets/figures/ch21-fig1.png`). For vector-only
 figures that `pdfimages` misses, rasterise the relevant page and crop:
 
 ```sh
 pdftoppm -png -f PAGE -l PAGE -r 200 pdfs/<slug>.pdf tmp/chNN
-magick tmp/chNN-PAGE.png -crop WxH+X+Y skills/uk-green-book/assets/figures/chNN-figN.png
+magick tmp/chNN-PAGE.png -crop WxH+X+Y skills/green-book/assets/figures/chNN-figN.png
 ```
 
 ### 2. Convert PDF to markdown
@@ -73,7 +76,7 @@ use [poppler](https://poppler.freedesktop.org) and then combine it with a LLM +
 manual human refinement step
 
 Open Claude Code and read the PDF directly (use page ranges for large
-chapters). Write the output to `skills/uk-green-book/references/chNN.md` with YAML
+chapters). Write the output to `skills/green-book/references/chNN.md` with YAML
 frontmatter:
 
 ```yaml
@@ -118,7 +121,7 @@ token count, and file link.
 Releases are automated via GitHub Actions using calendar versioning
 (dateVer).
 
-When content changes under `skills/uk-green-book/` are pushed
+When content changes under `skills/green-book/` are pushed
 to `main`, the [release workflow](.github/workflows/release.yml):
 
 1. Runs `mise package` to build `green-book.zip`
