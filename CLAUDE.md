@@ -14,12 +14,12 @@ mise package
 
 ## Project Structure
 
-- `SKILL.md` — skill definition + chapter index
-- `chapters/` — one markdown file per Green Book chapter (with YAML frontmatter)
+- `skills/uk-green-book/SKILL.md` — skill definition + chapter index
+- `skills/uk-green-book/references/` — one markdown file per Green Book chapter (with YAML frontmatter)
+- `skills/uk-green-book/assets/figures/` — extracted images from PDFs (via `pdfimages`)
 - `src/scrape.ts` — scrapes Green Book chapter PDFs from gov.uk
 - `src/package.ts` — assembles zip for distribution
 - `src/scrape.test.ts` — tests for the scraper
-- `figures/` — extracted images from PDFs (via `pdfimages`)
 - `mise.toml` — task definitions (use `mise` tasks, not direct bun commands)
 - `.github/workflows/` — auto-update detection + release publishing
 
@@ -59,7 +59,7 @@ add thing`)
 
 ## Chapter Conversion
 
-PDFs in `pdfs/` are converted to markdown in `chapters/`. The conversion
+PDFs in `pdfs/` are converted to markdown in `skills/uk-green-book/references/`. The conversion
 must be faithful to the source PDF:
 
 - Preserve all content verbatim — every paragraph, bullet, reference, URL
@@ -73,7 +73,7 @@ must be faithful to the source PDF:
 - Zero-pad chapter filenames: `ch01.md` not `ch1.md`
 - Preserve footnote markers verbatim (¥, \*, † etc.) in both references and
   definitions
-- Diagrams/flowcharts: extract with `pdfimages -png` to `figures/`, link as `![caption](../figures/chNN-fig.png)`
+- Diagrams/flowcharts: extract with `pdfimages -png` to `skills/uk-green-book/assets/figures/`, link as `![caption](../assets/figures/chNN-fig.png)`
 - Vector graphs won't extract with `pdfimages`; use `pdftoppm -png -f PAGE -l PAGE -r 200` then crop with `magick`
 - Simple flowcharts can be represented as text descriptions instead
 - Medical illustration PDFs may trigger content filters in subagents; avoid

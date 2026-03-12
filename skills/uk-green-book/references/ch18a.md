@@ -45,7 +45,7 @@ Cervical cancer is still one of the commonest cancers amongst women worldwide, w
 
 An average of 3,917 new cases of invasive cervical cancer were diagnosed per year in the UK, 2016-18 (Cancer Research UK). The peak incidence of cervical cancer occurs in women aged 30-34, a second smaller peak occurs in women in their 80s (i.e. women less likely to have benefited from cervical screening during their lifetimes; Figure 1). Older women remain at risk with more than 50% of new cases diagnosed in women over the age of 40 and more than 15% in women over 65 years of age. In the UK, the lifetime risk of developing cervical cancer was estimated as 1 in 142 in unvaccinated cohorts (Lifetime risk estimates calculated by the Statistical Information Team at Cancer Research UK based on Office for National Statistics, 2016) (Smittenaar _et al._, 2016). In the UK, approximately one third of women die within five years of the diagnosis of invasive cervical cancer (National Statistics, 2011).
 
-![Figure 1 Average Number of New cervical cancer Cases per Year and Age-Specific Incidence Rates per 100,000 Female Population, UK, 2016-2018 (source: Cancer Research UK)](../figures/ch18a-fig1.png)
+![Figure 1 Average Number of New cervical cancer Cases per Year and Age-Specific Incidence Rates per 100,000 Female Population, UK, 2016-2018 (source: Cancer Research UK)](../assets/figures/ch18a-fig1.png)
 
 In 2020 the WHO launched a _Global strategy to accelerate the elimination of cervical cancer as a public health problem_ setting out targets for HPV vaccine uptake in adolescent girls, cervical screening uptake and early access to high quality cancer treatment.
 

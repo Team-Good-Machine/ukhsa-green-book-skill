@@ -7,9 +7,18 @@ ChatGPT, Gemini, and other skill-compatible AI agents.
 
 ## Install
 
+### Claude Code, Cursor, Copilot, Codex, and other agents
+
+```sh
+npx skills add Team-Good-Machine/ukhsa-green-book-skill
+```
+
+### claude.ai
+
 Download the latest `.zip` from the [releases
-page](https://github.com/Team-Good-Machine/ukhsa-green-book-skill/releases) and
-give it to Claude.
+page](https://github.com/Team-Good-Machine/ukhsa-green-book-skill/releases)
+and add it to your project knowledge, or paste the SKILL.md contents into
+your conversation.
 
 ## Development
 
@@ -45,16 +54,16 @@ markdown is a separate human-in-the-loop process.
 ### 1. Extract figures
 
 ```sh
-pdfimages -png pdfs/<slug>.pdf figures/chNN-raw
+pdfimages -png pdfs/<slug>.pdf skills/uk-green-book/assets/figures/chNN-raw
 ```
 
 Rename the raw extracts to match the figure numbering in the PDF (e.g.
-`figures/ch21-fig1.png`). For vector-only figures that `pdfimages`
-misses, rasterise the relevant page and crop:
+`skills/uk-green-book/assets/figures/ch21-fig1.png`). For vector-only
+figures that `pdfimages` misses, rasterise the relevant page and crop:
 
 ```sh
 pdftoppm -png -f PAGE -l PAGE -r 200 pdfs/<slug>.pdf tmp/chNN
-magick tmp/chNN-PAGE.png -crop WxH+X+Y figures/chNN-figN.png
+magick tmp/chNN-PAGE.png -crop WxH+X+Y skills/uk-green-book/assets/figures/chNN-figN.png
 ```
 
 ### 2. Convert PDF to markdown
@@ -64,7 +73,8 @@ use [poppler](https://poppler.freedesktop.org) and then combine it with a LLM +
 manual human refinement step
 
 Open Claude Code and read the PDF directly (use page ranges for large
-chapters). Write the output to `chapters/chNN.md` with YAML frontmatter:
+chapters). Write the output to `skills/uk-green-book/references/chNN.md` with YAML
+frontmatter:
 
 ```yaml
 ---
@@ -80,8 +90,8 @@ Conversion rules (see `CLAUDE.md` for the full list):
 - Preserve all content verbatim — every paragraph, bullet, reference, URL
 - Only fix obvious typos; never add editorial notes or commentary
 - Prefix bare URLs with `https://` but keep explicit `http://` as-is
-- Link figures as `![Short title](../figures/chNN-fig.png)` with a full
-  caption paragraph below
+- Link figures as `![Short title](../assets/figures/chNN-fig.png)` with a
+  full caption paragraph below
 
 ### 3. Review
 
@@ -108,7 +118,7 @@ token count, and file link.
 Releases are automated via GitHub Actions using calendar versioning
 (dateVer).
 
-When content changes (`chapters/`, `figures/`, or `SKILL.md`) are pushed
+When content changes under `skills/uk-green-book/` are pushed
 to `main`, the [release workflow](.github/workflows/release.yml):
 
 1. Runs `mise package` to build `green-book.zip`

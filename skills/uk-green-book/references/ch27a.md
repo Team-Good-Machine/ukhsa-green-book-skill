@@ -31,11 +31,11 @@ RSV LRTI is recognised to have a significant burden in immunocompromised and eld
 
 RSV infections occur year-round but primarily within the period October to February, and with most infections occurring in a relatively short epidemic of about six weeks (Figure 1). Whilst the occurrence of the mid-winter peak is predictable, its size varies from year-to-year. Seasons can be dominated by subtype A or B or a mixture of both (Figure 2). Activity was disrupted by respiratory transmission control measures during the COVID-19 pandemic (Bardsley _et al._, 2023).
 
-![Figure 1](../figures/ch27a-fig1.png)
+![Figure 1](../assets/figures/ch27a-fig1.png)
 
 Figure 1. Weekly RSV swab positivity (%) by date of specimen, Respiratory DataMart 2017/18 to 2023/2024.
 
-![Figure 2](../figures/ch27a-fig2.png)
+![Figure 2](../assets/figures/ch27a-fig2.png)
 
 Figure 2. Primary care RSV detections by subtypes A and B in acute respiratory infection patients. Royal College of GPs Research and Surveillance Centre, Oxford and the UKHSA Respiratory Virus Unit. Note that testing has increased over time.
 
@@ -43,11 +43,11 @@ The UK Health Security Agency (UKHSA) monitors levels of RSV activity in England
 
 RSV laboratory results are collected into national surveillance systems including sentinel Respiratory Datamart (figure 3) and the NHS-wide Second-Generation Surveillance System (SGSS). Data on RSV in primary care are collected as part of the Royal College of General Practitioners UKHSA surveillance programme. Secondary care surveillance includes Emergency Department Syndromic Surveillance (of bronchiolitis), confirmed RSV admissions to wards and critical care (severe ARI) through the SARI Watch system (figure 4) and determining adult outcomes and incidence through the Hospital ARI Surveillance System (HARISS) (Symes _et al_. 2025a). Monitoring for RSV strains that can evade immunity is important for RSV programmes globally (Simões _et al.,_ 2021; WHO 2025), as undertaken at UKHSA's Respiratory Virus Unit.
 
-![Figure 3](../figures/ch27a-fig3.png)
+![Figure 3](../assets/figures/ch27a-fig3.png)
 
 Figure 3. Weekly swab positivity (%) by age group and date of specimen, Respiratory DataMart 2023/2024
 
-![Figure 4](../figures/ch27a-fig4.png)
+![Figure 4](../assets/figures/ch27a-fig4.png)
 
 Figure 4. Weekly confirmed RSV hospital admission rates per 100,000 population, by age group, reported through SARI Watch sentinel surveillance, England, week 16 2023 to week 15 2024
 
@@ -291,7 +291,7 @@ Children less than 24 months of age with SCID -- the most severe form of inherit
 
 ^2^ The definition of LTV is 'any child who when medically stable, continues to require a mechanical aid for breathing, after an acknowledged failure to wean three months after the institution of ventilation' (Jardine and Wallis, 1998)
 
-![Table 1](../figures/ch27a-table1.png)
+![Table 1](../assets/figures/ch27a-table1.png)
 
 Table 1 -- Recommended use of monoclonal antibodies in risk patients by gestational age
 

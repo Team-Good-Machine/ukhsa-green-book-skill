@@ -19,11 +19,11 @@ Rotavirus infections in humans cause gastroenteritis that usually lasts from thr
 
 Rotavirus infection in the UK is seasonal (see figure 1), occurring mostly in winter and early spring (January to March). People of any age can be infected by rotavirus but most infections occur in children between one month and four years of age (see figure 2). Infection in newborns is common but tends to be either mild or asymptomatic, probably because of protection by circulating maternal antibodies (Grillner _et al._, 1985; Bishop, 1994). Infections are often recurrent, and, by three years of age, many children will have experienced infection on more than one occasion (Brussow _et al._, 1988). Once someone has had a rotavirus infection they usually develop immunity, although it may be short lived (Bishop, 1994). Second and subsequent infections with a strain previously encountered are often asymptomatic; symptomatic second infections are usually associated with a different genotype.
 
-![Figure 1](../figures/ch27b-fig1.png)
+![Figure 1](../assets/figures/ch27b-fig1.png)
 
 Figure 1 Seasonal distribution of rotavirus infections - laboratory reports of all identifications by month, England and Wales, 2000-2012.
 
-![Figure 2](../figures/ch27b-fig2.png)
+![Figure 2](../assets/figures/ch27b-fig2.png)
 
 Figure 2 Confirmed rotavirus infections in children under 5 years of age, 2000-2011 England and Wales, July 2000 to June 2012 (n = 178,880) Source: Rotavirus LabBase, Health Protection Agency.
 
@@ -76,7 +76,7 @@ Rotarix® vaccine is given orally.
 
 To administer the vaccine, carefully remove the protective tip-cap from the oral applicator. Seat the child in a reclining position and administer the entire content of the oral applicator orally (i.e. into the child's mouth, towards the inner cheek).
 
-![Instructions for administration of rotavirus vaccine](../figures/ch27b-fig3.png)
+![Instructions for administration of rotavirus vaccine](../assets/figures/ch27b-fig3.png)
 
 1. Remove the protective tip cap from the oral applicator. 2. This vaccine is for oral administration only. The child should be seated in a reclining position. Administer orally (i.e. into the child's mouth, towards the inner cheek) the entire content of the oral applicator. 3. Do not inject.
 

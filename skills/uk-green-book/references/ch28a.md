@@ -39,7 +39,7 @@ Table 1: Estimated percentage developing PHN by age group in the immunocompetent
 | --------------------------------------- | ----------- | ----------- | ----------- | ----------- | ----------- | -------- |
 | Proportion developing PHN after 90 days | 9%          | 11%         | 15%         | 20%         | 27%         | 52%      |
 
-![Figure 1](../figures/ch28a-fig1.png)
+![Figure 1](../assets/figures/ch28a-fig1.png)
 
 Figure 1 Average annual age-specific rates of shingles primary care consultation per 100,000 in England, 2007/08 to 2023/24 (epidemiological year between October and September). Zostavax vaccination programme started in September 2013. Data from Andrews et al., 2020 and Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC).
 
