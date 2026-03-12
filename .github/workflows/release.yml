@@ -4,9 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "chapters/**"
-      - "figures/**"
-      - "SKILL.md"
+      - "skills/uk-green-book/**"
   workflow_dispatch:
 
 permissions:

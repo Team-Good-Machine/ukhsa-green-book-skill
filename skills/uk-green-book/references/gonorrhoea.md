@@ -18,7 +18,7 @@ Gonorrhoea can spread through condomless vaginal, oral or anal sex, or mucosal e
 
 Gonorrhoea is a major global public health problem, with rising incidence globally and increasing resistance to antibiotics (WHO, 2022). In England, gonorrhoea diagnoses have been generally increasing over time, reaching nearly 83,000 in 2022, the largest annual number on record (Figure 1) (UKHSA, 2023c). Gay bisexual and other men who have sex with men (GBMSM) are at significantly higher risk of infection than heterosexuals, accounting for nearly half of all gonorrhoea diagnoses in England in 2022 (UKHSA, 2023d).
 
-![Figure 1](../figures/gonorrhoea-fig1.png)
+![Figure 1](../assets/figures/gonorrhoea-fig1.png)
 
 Figure 1. Number of gonorrhoea diagnoses among gay, bisexual and other men who have sex with men (GBMSM) accessing sexual health services, 2013 to 2022 (UKHSA, 2023c). Note 1: Data reported in 2020 and 2021 is notably lower than previous years due to the disruption to SHSs during the national response to the COVID-19 pandemic.
 

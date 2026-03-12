@@ -120,7 +120,7 @@ In individuals that are only IgG positive, it is imperative that the decision to
 
 Vaccination should only be recommended if the most likely explanation for dengue IgG is past infection with dengue. This may be influenced by likelihood of prior exposure to dengue virus, for example, in patients with a history of prolonged residence in a highly dengue endemic setting, who have a high likelihood of past asymptomatic infection.
 
-![Figure 1: Investigating previous dengue infection](../figures/ch15a-fig1.png)
+![Figure 1: Investigating previous dengue infection](../assets/figures/ch15a-fig1.png)
 
 \* _Dengue serology can be affected by other similar viruses or vaccinations, and so may not be definitive evidence of previous dengue infection._
 

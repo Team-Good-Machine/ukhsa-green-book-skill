@@ -59,7 +59,7 @@ Information on new variants under investigation is included in the weekly Nation
 | 70-79              | 14,217         | 285.6   | 14,561             | 292.6   | 571                    | 11.5 | 2,610 | 52.4  |
 | ≥80                | 21,795         | 745.6   | 25,321             | 866.2   | 423                    | 14.5 | 7,029 | 240.5 |
 
-![Figure](../figures/ch14a-fig1.png)
+![Figure](../assets/figures/ch14a-fig1.png)
 
 Figure: Number of confirmed episodes of SARS-CoV-2 infection: by test type and week March 2020 to September 2024. (Source: pillar 1 testing in English NHS laboratories)
 
@@ -925,7 +925,7 @@ The British Society for Allergy and Clinical Immunology (BSACI) has advised that
 
 Individuals with non-allergic reactions (vasovagal episodes, non-urticarial skin reaction or non-specific symptoms) to the first dose of a COVID-19 vaccine can receive the second dose of vaccine in any vaccination setting. Observation for 15 minutes is recommended.
 
-![Flowchart](../figures/ch14a-flowchart.png)
+![Flowchart](../assets/figures/ch14a-flowchart.png)
 
 Flowchart for managing patients who have allergic reactions to a previous dose of COVID-19 vaccine
 
